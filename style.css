@@ -1,0 +1,14 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: pink;
+    text-align: center;
+}
+
+#grid {
+    background: white;
+    margin: 35px;
+}
