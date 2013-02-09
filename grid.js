@@ -5,7 +5,27 @@ function Cell(x, y) {
 }
 
 
+function GameOfLife(canvas) {
+
+    console.log(1);
+    var grid = new Grid(canvas);
+    console.log(2);
+
+
+    grid.draw();
+}
+
+
 function Grid(canvas) {
+
+
+    this.draw = function() {
+        console.log("a");
+    }
+
+}
+
+function Grid_(canvas) {
 
     // Represents cells by using a 2D bool array
     var cells = [];

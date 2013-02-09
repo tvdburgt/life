@@ -1,14 +1,13 @@
-* {
-    margin: 0px;
-    padding: 0px;
-}
-
 body {
-    background: pink;
+    background: #EBEBEB;
     text-align: center;
 }
 
 #grid {
     background: white;
-    margin: 35px;
+}
+
+#menu {
+    float: left;
+    text-align: left;
 }
